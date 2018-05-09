@@ -18,6 +18,6 @@ class BATTLETANK_API APaduNEW_TankPlayerController : public APlayerController
 
 public: 
 
-	ATank* GetPawn() const;
+	void GetPawn() const;
 	
 };
