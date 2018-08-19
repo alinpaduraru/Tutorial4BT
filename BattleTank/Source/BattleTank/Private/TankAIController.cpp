@@ -27,7 +27,7 @@ void ATankAIController::BeginPlay()
 	//Getting player controller tank
 	if (PlayerTank)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("TankAICOntroller.cpp: Player controller Tank name is %s."),*PlayerTank->GetName())
+		UE_LOG(LogTemp, Warning, TEXT("TankAICOntroller.cpp: Player controller Tank found and its name is %s."),*PlayerTank->GetName())
 	}
 	else
 	{
